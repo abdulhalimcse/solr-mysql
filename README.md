@@ -1,4 +1,4 @@
-# solr-mysql-laravel
+# solr-mysql
 
 [Apache Solr](https://lucene.apache.org/solr/) is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene™. Solr provides full-text search, spell suggestions, custom document ordering and ranking, Snippet generation and highlighting. 
 
