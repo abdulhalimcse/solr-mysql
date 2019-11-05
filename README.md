@@ -15,11 +15,11 @@ Install Java 11
 Now you need to download solr from its official site or mirrors [Download](https://lucene.apache.org/solr/downloads.html). 
 Choose your desired version. I chose 8.2.0 version. 
 
-![Download Image](https://github.com/abdulhalimcse/solr-mysql-laravel/blob/master/img/solr-8.2.0-download-for-linx.PNG)
+![Download Image](https://github.com/abdulhalimcse/solr-mysql/blob/master/img/solr-8.2.0-download-for-linx.PNG)
 
 Click highlighted solr-8.2.0.tgz. 
 
-![Donload Image 2](https://github.com/abdulhalimcse/solr-mysql-laravel/blob/master/img/click-after-taz-file.PNG)
+![Donload Image 2](https://github.com/abdulhalimcse/solr-mysql/blob/master/img/click-after-taz-file.PNG)
 
 Click highlighted link https://www-us.apache.org/dist/lucene/solr/8.2.0/solr-8.2.0.tgz and keep it in opt folder. 
 
@@ -75,12 +75,12 @@ After creating collection
 
 Sample output:
 
-![CreatedCollectionSuccessfulMessage](https://github.com/abdulhalimcse/solr-mysql-laravel/blob/master/img/created-solr-successfull-message.PNG)
+![CreatedCollectionSuccessfulMessage](https://github.com/abdulhalimcse/solr-mysql/blob/master/img/created-solr-successfull-message.PNG)
 
 
 To access Solr Admin Panel from browser http://127.0.0.1:8983/solr/
 
-![show solr admin panel](https://github.com/abdulhalimcse/solr-mysql-laravel/blob/master/img/solr-admin-panel-view.PNG)
+![show solr admin panel](https://github.com/abdulhalimcse/solr-mysql/blob/master/img/solr-admin-panel-view.PNG)
 
 
 ## Step 3 - Importing/Indexing MySQL database in Solr using Data Import Handler 
@@ -154,5 +154,5 @@ Add this line after ``` <uniqueKey>id</uniqueKey> ```
 
 You need to full import from Solr Admin Panel. After full-import. it is showing like below 
 
-![Solr Admin Panel](https://github.com/abdulhalimcse/solr-mysql-laravel/blob/master/img/data-full-import-image.PNG)
+![Solr Admin Panel](https://github.com/abdulhalimcse/solr-mysql/blob/master/img/data-full-import-image.PNG)
 
